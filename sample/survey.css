@@ -1,0 +1,323 @@
+.coach-survey {
+    width: 100%;
+    position: relative;
+    margin: 30px 0 0 0;
+    min-height: 200px;
+}
+
+.coach-survey img {
+    width: 150px;
+    border: 5px solid #43416a;
+    border-radius: 100%;
+}
+
+.coach-survey .coach-stand-info {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: #43416a;
+    width: 365px;
+    padding: 20px;
+    min-height: 136px;
+}
+
+.coach-survey .coach-stand-info::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-right: 43px solid #43416a;
+    border-top: 24px solid transparent;
+    border-bottom: 22px solid transparent;
+    position: absolute;
+    left: -40px;
+    bottom: 110px;
+}
+
+.panel-body.survey-cont {
+    background: url(../images/ExQ-Profile-and-Progress-Design-Update.png) repeat 0 0;
+}
+
+.survey-box {
+    width: 85%;
+    background: #F5F5F5;
+    padding: 10px 20px;
+    margin: 5px 0 20px 25px;
+}
+
+.survey-box ul {
+    border: none;
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.survey-box ul li.list-group-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.survey-box ul li.list-group-item div input {
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+}
+
+.survey-box ul li.list-group-item div label {
+    background: #43416a;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    padding: 3px 0 0 0;
+    font-size: 24px;
+}
+
+.survey-box ul li.list-group-item div {
+    position: relative;
+    width: 50px;
+}
+
+.survey-box h5 span {
+    width: 93%;
+    float: right;
+    text-align: left;
+}
+
+.survey-box h5 {
+    width: 97%;
+    float: left;
+        font-size: 18px;
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p.active:nth-child(5) {
+    background: #43416a;
+    background-size: 27px;
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p:nth-child(5) {
+    background: #50bfa5;
+    border-radius: 100%
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p.active:nth-child(4) {
+    background: #43416a;
+    background-size: 27px;
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p:nth-child(4) {
+    background: #55c4d5;
+    border-radius: 100%
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p.active:nth-child(3) {
+    background: #43416a;
+    background-size: 27px;
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p:nth-child(3) {
+    background: #ed8790;
+    border-radius: 100%
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p.active:nth-child(2) {
+    background: #43416a;
+    background-size: 27px;
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p:nth-child(2) {
+    background: #ff9f1c;
+    border-radius: 100%
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p.active:nth-child(1) {
+    background: #43416a;
+    background-size: 27px;
+}
+
+.survey-box.selfcheck-radio li .self-radio-wpr p:nth-child(1) {
+    background: #f15b2a;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+
+.survey-box .self-radio-wpr {
+    float: left;
+    width: 350px;
+}
+
+.survey-box.selfcheck-radio ul li div p {
+    margin-left: 50px;
+}
+
+.survey-box.selfcheck-radio li input[type="radio"]:checked+label,
+.survey-box.selfcheck-radio li input[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 0px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #fff;
+    top: 6px;
+    left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.selfcheck-radio li p {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f7f6f6;
+    margin-left: 2px;
+}
+.survey-box.selfcheck-radio li input[type="radio"]:checked+label:before,
+.survey-box.selfcheck-radio li input[type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: -7px;
+    width: 30px;
+    height: 30px
+}
+
+.survey-diff-easy {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+}
+
+span.easy-right {
+    float: right;
+}
+
+span.diff-left {
+    float: left;
+}
+.survey-box .self-radio-wpr {
+    float: left;
+    width: 91%;
+}
+.survey-textbox {
+    width: 100%;
+    float: left;
+}
+.survey-textbox input {
+    width: 180px;
+    float: left;
+    border: 1px solid #333;
+    height: 50px;
+    margin: 0 15px;
+}
+.survey-box.selfcheck-radio.survey-marg {
+    margin-top: 100px;
+}
+.survey-submit button {
+   background: #43416a;
+    width: auto;
+    height: auto;
+    padding: 11px 50px;
+    color: #F5F5F5;
+    border: none;
+    float: right;
+    position: relative;
+    right: 110px;
+    top: 40px;
+}
+.welcome_content_popup.meta-feedback-popup.meta-process{
+    background: #FFF;
+}
+.meta-process .survey-box.selfcheck-radio li .self-radio-wpr p:nth-child(1) {
+    background: #f15b2a;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.meta-process .survey-box.selfcheck-radio ul li div p {
+    margin-left: 67px;
+}
+.meta-process .survey-box.selfcheck-radio {
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 10px;
+	 background: #FFF !important;
+}
+.meta-process .survey-box h5 {
+    width: 97%;
+    float: left;
+    font-size: 16px;
+}
+
+.meta-process .survey-box .survey-diff-easy {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+}
+.meta-process .survey-textbox input {
+    width: 41%;
+    height: 35px;
+    padding: 5px;
+
+}
+.meta-process .survey-box h5 span {
+    width: 97%;
+}
+.process-text-one {
+    display: block !important;
+    border: 1px solid #999;
+    padding: 2px 5px !important;
+}
+.meta-process .survey-box div div div p {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.meta-process .survey-box div div div p span {
+    width: 89%;
+    float: right;
+    text-align: left;
+    font-size: 14px;
+    line-height: normal;
+}
+.meta-process .survey-box div div div p label {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.meta-process .survey-box div div div p input {
+    float: left;
+}
+.meta-process .survey-box div div .form-new-fields{
+margin-top: 0px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+ .coach-survey .coach-stand-info::before {
+   
+    left: -31px;
+    bottom: 110px;
+    transform: none;
+}
+.coach-survey .coach-stand-info {
+    position: absolute;
+    top: 10px;
+    background: #43416a;
+    width: 365px;
+    padding: 20px;
+    min-height: 136px;
+    left: 219px;
+}
+.survey-box.selfcheck-radio.survey-marg {
+    margin-top: 10px;
+}
+.survey-box .self-radio-wpr {
+    float: left;
+    width: 74%;
+}
+
+}
